@@ -23,7 +23,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
 
 		<!-- my own style sheet  -->
-		<link rel="stylesheet" type="text/css" href="pop_up_style.css">
+<!-- 		<link rel="stylesheet" type="text/css" href="pop_up_style.css"> -->
 
 </head>
 <body>
