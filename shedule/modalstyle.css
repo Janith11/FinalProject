@@ -1,0 +1,72 @@
+.modal_body{
+	border-radius: 20px;
+	border-width: 0px;
+	background-color: white;
+	width: 50%;
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+.header{
+	background-color: #261516;
+	padding: 30px 30px 30px 30px;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	font-size: 30px;
+	font-family: 'Kiwi Maru', serif;
+}
+
+.event_name{
+	border: none;
+  	border-bottom: 2px solid green;
+  	width: 100%;
+}
+
+.time_div, .category_div, .tranmission_div, .shedule_name,.name_date{
+	padding:10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Kiwi Maru', serif;
+	
+}
+
+.timeselectdiv{
+	width: 100%;
+}
+
+.time{
+	border: none;
+  	border-bottom: 2px solid green;
+	width: 100%;
+}
+
+.vehicle_category{
+	margin-left: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: 'Kiwi Maru', serif;
+}
+
+.text{
+	font-size: 20px;
+	font-family: 'Kiwi Maru', serif;
+}
+
+.span_div{
+	padding: 10px 10px 10px 10px;
+	color: red;
+}
+
+.footer{
+	text-align: right;
+	padding: 10px 10px 10px 10px;
+}
+
+.auto{
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+	.modal_body{
+		width: 100%; 
+	}
+}
