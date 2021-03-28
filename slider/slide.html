@@ -9,8 +9,47 @@
     <title>Document</title>
 </head>
 <body >
+
+  <script>
+    function popup(){
+      var myDialog = document.createElement("dialog");
+      document.body.appendChild(myDialog);
+
+      var div_modal = document.createElement('div');
+      div_modal.className += 'modal';
+      //myDialog.appendChild(div_modal);
+      document.body.appendChild(div_modal);
+
+      var div_modal_dialog = document.createElement('div');
+      div_modal_dialog.className += 'modal-dialog';
+      div_modal.appendChild(div_modal_dialog);
+
+      var div_modal_content = document.createElement('div');
+      div_modal_content.className += 'modal-content';
+      div_modal_dialog.appendChild(div_modal_content);
+
+      var div_header = document.createElement('div');
+      div_header.className += 'modal-header';
+      div_modal_content.appendChild(div_header);
+
+      var header = document.createElement('header');
+          h5 = document.createElement('h5');
+      h5.textContent = 'Shedule';
+      header.appendChild(h5);
+
+
+
+    }
+
+    popup();
+  </script>
+
+  <div class="container">
+    <button class="btn-primary">Click</button>
+  </div>
+
     
-    <div class="ms-auto col-3 p-0 mt-5">
+    <!-- <div class="ms-auto col-3 p-0 mt-5">
         <div class="bg-primary ">
             <h3 class="p-2 d-flex justify-content-center">Scheduling</h3>
         </div>
@@ -54,7 +93,7 @@
               <button type="submit" class="btn btn-primary">Schedule</button>
             </div>
           </form>
-    </div>
+    </div> -->
  
 </body>
 </html>
