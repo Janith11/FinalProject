@@ -14,12 +14,18 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
 
+<!-- 
 		<link rel="stylesheet" href="modalstyle.css">
 
 		<!-- google font links -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
 
+
+		<!-- my own style sheet  -->
+<!-- 		<link rel="stylesheet" type="text/css" href="pop_up_style.css"> -->
+
+ -->
 </head>
 <body>
 
